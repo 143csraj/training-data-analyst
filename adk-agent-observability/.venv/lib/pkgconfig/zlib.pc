@@ -1,0 +1,13 @@
+prefix=/Users/rajkishorroy/Documents/GitHub/training-data-analyst/adk-agent-observability/.venv
+exec_prefix=/Users/rajkishorroy/Documents/GitHub/training-data-analyst/adk-agent-observability/.venv
+libdir=/Users/rajkishorroy/Documents/GitHub/training-data-analyst/adk-agent-observability/.venv/lib
+sharedlibdir=/Users/rajkishorroy/Documents/GitHub/training-data-analyst/adk-agent-observability/.venv/lib
+includedir=/Users/rajkishorroy/Documents/GitHub/training-data-analyst/adk-agent-observability/.venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
